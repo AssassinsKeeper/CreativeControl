@@ -1,0 +1,36 @@
+name: CreativeControlByKubqoA
+version: 2.2.3
+author: KubqoA
+main: me.kubqoa.creativecontrol.Main
+softdepend: [WorldGuard, Residence, Towny, Factions, GriefPrevention, Vault, Multiverse-Core]
+commands:
+  creativecontrol:
+    description: Main command for CreativeControl
+    permission: cc.cc
+    permission-message: You don't have permission for that command.
+    usage: /<command> [args]
+    aliases: [ccontrol]
+  ccpermissions:
+    description: Edit permissions added or removed within gamemode change.
+    permission: cc.ccpermissions
+    permission-message: You don't have permission for that command.
+    usage: /<command> [args]
+    aliases: [ccperms]
+  cccommands:
+    description: Edit commands disabled in creative gamemode.
+    permission: cc.cccommands
+    permission-message: You don't have permission for that command.
+    usage: /<command> [args]
+    aliases: [cccmds]
+  ccconvert:
+    description: Convert betwwen different db types.
+    permission: cc.ccconvert
+    permission-message: You don't have permission for that command.
+    usage: /<command> [args]
+permissions:
+  cc.*:
+    description: Gives all permissions for the plugin!
+    default: op
+  cc.cc:
+    description: Gives permission to use command /cc
+    default: true
