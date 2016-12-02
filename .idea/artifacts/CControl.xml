@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CControl">
+    <output-path>$PROJECT_DIR$/out/artifacts/CControl</output-path>
+    <root id="archive" name="CControl.jar">
+      <element id="module-output" name="CControl" />
+    </root>
+  </artifact>
+</component>

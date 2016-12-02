@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Factions1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../deps/Factions.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../deps/Factions.jar!/" />
+    </SOURCES>
+  </library>
+</component>

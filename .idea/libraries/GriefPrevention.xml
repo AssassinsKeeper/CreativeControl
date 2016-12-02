@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GriefPrevention">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../deps/GriefPrevention.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
